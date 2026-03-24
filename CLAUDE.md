@@ -27,4 +27,10 @@ Everything lives in `tictactoe.html` — HTML structure, CSS styles, and JavaScr
 
 Repository: `https://github.com/issubro69-creator/tictactoe`
 
-Always commit and push after making changes. Use descriptive commit messages that explain *what* changed and *why*.
+**Commit and push after every meaningful change** — do not batch up multiple features into one commit. Each logical unit of work (bug fix, feature added, refactor) should be its own commit, pushed to GitHub immediately so work is never lost.
+
+Commit message format:
+- First line: short imperative summary (e.g. `Add score reset button`)
+- Optional body: explain *why* if not obvious
+
+Always run `git push` after committing. Never leave committed work un-pushed.
